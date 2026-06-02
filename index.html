@@ -57,7 +57,7 @@
     <h1>☀️🌦️ Meteo matrimonio — Sabato 6 giugno 2026</h1>
     <div class="loc">Via Santa Croce 1, 20011 Corbetta (MI) · "Cascina Chiappana" · 45°26′32″N 8°54′40″E · fascia 15:00 → 01:00</div>
     <div>
-      <span class="stamp">📸 Ultimo aggiornamento: martedì 2 giugno 2026, ore 19:09 (ora italiana)</span>
+      <span class="stamp">📸 Ultimo aggiornamento: martedì 2 giugno 2026, ore 19:28 (ora italiana)</span>
       <span class="auto">🔄 aggiornato in automatico ogni 4 h (09–13–17–21) fino al 7/6</span>
     </div>
   </header>
@@ -66,7 +66,7 @@
     <h2><span class="dot"></span>Verdetto in una riga</h2>
     <p style="margin:0; font-size:14.5px;">
       <b>Pomeriggio (15–19) asciutto e gradevole su tutti i modelli</b> (≈24 °C, sole/nuvole, vento debole).
-      <b>Sera (20–01): probabile asciutto, ma rischio isolato di rovescio serale</b> segnalato da tre fonti modellistiche indipendenti (ECMWF, ICON e Aeronautica Militare), mentre gli aggregatori (iLMeteo, 3BMeteo) restano sull'asciutto.
+      <b>Sera (20–01): probabile asciutto, ma rischio isolato di rovescio serale</b> visto da 4 modelli (ECMWF/IFS, ICON 13 km, AROME e Aeronautica Militare/ICON-2I), mentre GFS, Meteoblue, ICON-EU e gli aggregatori (iLMeteo, 3BMeteo) danno la fascia asciutta.
       Temperature 23–24 °C max → 18–19 °C a fine serata. Vento debole ovunque.
     </p>
   </div>
@@ -76,7 +76,7 @@
     <table>
       <tr><th class="l">Modello</th><th>14:00</th><th>17:00</th><th>20:00</th><th>23:00</th><th class="l">Pioggia nella fascia 15→01</th><th>Sera</th></tr>
       <tr>
-        <td class="l">ECMWF <span class="muted">9 km</span></td>
+        <td class="l">ECMWF / IFS <span class="muted">9 km</span></td>
         <td class="t">23°</td><td class="t">24°</td><td class="t">21°</td><td class="t">18°</td>
         <td class="l wet">0,2 mm h17 · 0,9 mm h20 · 0,2 mm h23</td>
         <td><span class="pill a">rischio</span></td>
@@ -86,6 +86,12 @@
         <td class="t">22°</td><td class="t">23°</td><td class="t">23°</td><td class="t">18°</td>
         <td class="l risk">isolato rovescio ~h23 (fino ~6 mm)</td>
         <td><span class="pill r">rischio</span></td>
+      </tr>
+      <tr>
+        <td class="l">ICON-EU <span class="muted">7 km · via Meteociel</span></td>
+        <td class="t">21°</td><td class="t">22°</td><td class="t">21°</td><td class="t">19°</td>
+        <td class="l dry">asciutto (pioggia solo h02–08, primo mattino)</td>
+        <td><span class="pill g">asciutto</span></td>
       </tr>
       <tr>
         <td class="l">GFS <span class="muted">22 km</span></td>
@@ -100,13 +106,19 @@
         <td><span class="pill g">asciutto</span></td>
       </tr>
       <tr>
-        <td class="l">Aeron. Militare <span class="muted">meteoam · COSMO</span></td>
+        <td class="l">AROME <span class="muted">2,5 km · Météo-France</span></td>
+        <td class="t">23°</td><td class="t">24°</td><td class="t">21°</td><td class="t">18°</td>
+        <td class="l wet">debole rovescio serale ~0,9 mm h20</td>
+        <td><span class="pill a">rischio</span></td>
+      </tr>
+      <tr>
+        <td class="l">Aeron. Militare <span class="muted">meteoam · ICON-2I (ICON-IT)</span></td>
         <td class="t">23°</td><td class="t">24°</td><td class="t">21°</td><td class="t">18°</td>
         <td class="l wet">prob. pioggia ~45% h20 (sera) · ~50% h14</td>
         <td><span class="pill a">rischio</span></td>
       </tr>
     </table>
-    <p class="key">Anche <b>AROME 2,5 km</b> (Météo-France, alta risoluzione) conferma un debole rovescio serale (~0,9 mm h20), in linea con ECMWF. Vento su tutti i modelli: debole, 2–7 nodi (~4–13 km/h) da E/NE. Alba ~05:36 · Tramonto ~21:09. <span class="muted">Apple Meteo non incluso: accesso web bloccato (403), disponibile solo da app iPhone.</span></p>
+    <p class="key">Consultati a ogni aggiornamento anche: <b>ICON-D2 (2,2 km)</b>, <b>AROME-HD (1,3 km)</b>, <b>ALADIN</b>, <b>UKV</b> su Windy, e via <b>Meteociel</b> i modelli <b>ICON-2I/BOLAM (italiano)</b>, <b>ARPEGE</b>, <b>ICON-EU/D2</b> ed <b>ECMWF-CEP/AIFS</b>. Nota: <b>IFS = ECMWF</b> (stesso modello) e <b>ICON-IT = ICON-2I</b> (= Aeronautica Militare). Vento su tutti i modelli: debole, 2–7 nodi (~4–13 km/h) da E/NE. Alba ~05:36 · Tramonto ~21:09. <span class="muted">Apple Meteo non incluso: accesso web bloccato (403), solo da app iPhone.</span></p>
   </div>
 
   <div class="card">
@@ -131,10 +143,10 @@
   <div class="card">
     <h2><span class="dot"></span>Bilancio modelli sulla SERA (20:00–01:00)</h2>
     <div class="grid2">
-      <div class="mini"><b class="dry">✅ Sera ASCIUTTA — 4 fonti</b><span class="muted">GFS · Meteoblue · iLMeteo · 3BMeteo — instabilità confinata a notte/mattina</span></div>
-      <div class="mini"><b class="risk">⚠️ Rischio rovescio serale — 3 fonti</b><span class="muted">ECMWF · ICON (= ARPA) · Aeronautica Militare (COSMO) — rovescio isolato ~20–23h, quantità modeste; AROME concorda</span></div>
+      <div class="mini"><b class="dry">✅ Sera ASCIUTTA — 5 fonti</b><span class="muted">GFS · Meteoblue · ICON-EU 7 km · iLMeteo · 3BMeteo — instabilità confinata a notte/mattina</span></div>
+      <div class="mini"><b class="risk">⚠️ Rischio rovescio serale — 4 modelli</b><span class="muted">ECMWF/IFS · ICON 13 km (= ARPA) · AROME · Aeron. Militare (ICON-2I) — rovescio isolato ~20–23h, quantità modeste</span></div>
     </div>
-    <p style="margin:10px 0 0; font-size:13.5px;"><b>Tendenza rispetto allo snapshot precedente (2/6 ore 18:21):</b> <span class="dry">meteo stabile</span> — temperature identiche su tutti i modelli e fascia 15→01 asciutta per gli aggregatori (iLMeteo agg. 18:18, 3BMeteo agg. 15:31 attendibilità 95%). <b>Novità: aggiunta la fonte ufficiale Aeronautica Militare (meteoam, modello COSMO)</b>, che si schiera col rischio rovescio serale (~45% h20): il fronte "rischio" sale così a 3 modelli indipendenti (più AROME) contro i 4 "asciutto". Il rischio serale resta isolato e di quantità modeste, da tenere d'occhio nei prossimi aggiornamenti.</p>
+    <p style="margin:10px 0 0; font-size:13.5px;"><b>Lettura:</b> il quadro è <b>leggermente sbilanciato sull'asciutto</b> (5 fonti contro 4). Alcuni modelli ad alta risoluzione (ECMWF/IFS, ICON globale, AROME, ICON-2I dell'Aeronautica) vedono un <b>debole rovescio serale isolato</b> (~0,5–1 mm, ~45% di probabilità verso le 20–23), ma l'<b>ICON-EU 7 km</b> e gli aggregatori (iLMeteo, 3BMeteo att. 95%) "asciugano" la sera. <b>Meteo stabile</b> rispetto allo snapshot precedente (temperature identiche): nessun peggioramento, solo un rischio modesto e isolato — da tenere d'occhio nei prossimi aggiornamenti.</p>
   </div>
 
   <footer>File aggiornato automaticamente dall'attività programmata "meteo-matrimonio-corbetta" · previsione a 4 giorni = indicazione di tendenza, non valore certo.</footer>
